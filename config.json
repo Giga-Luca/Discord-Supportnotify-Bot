@@ -1,0 +1,33 @@
+{
+  "botToken": "YOUR_DISCORD_BOT_TOKEN",
+  "licenseKey": "YOUR_PRODUCT_LICENSE_KEY",
+  "guildId": "YOUR_GUILD_ID",
+  "cooldown": 180000,
+
+  "activity": {
+    "name": "Support Watch",
+    "type": "Watching",
+    "status": "online",
+    "url": ""
+  },
+
+  "embed": {
+    "title": "📢 Support Notify",
+    "color": "#00b0f4",
+    "footerText": "Support Notification System",
+    "descriptionFormat": "🧑 **User:** <@{userId}>\\n📞 **Channel:** <#{channelId}>\\n⏰ **Waiting Since:** <t:{timestamp}:R>"
+  },
+
+  "supportChannels": [
+    {
+      "voiceId": "123456789012345678",
+      "notifyChannelId": "987654321098765432",
+      "pingroles": ["139208001111111111", "139208002222222222"]
+    },
+    {
+      "voiceId": "223456789012345678",
+      "notifyChannelId": "887654321098765432",
+      "pingroles": []
+    }
+  ]
+}

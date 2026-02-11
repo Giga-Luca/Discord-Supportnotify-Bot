@@ -1,0 +1,27 @@
+{
+  "name": "ps-discord_supportnotify-bot",
+  "version": "1.1.0",
+  "description": "dsc.gg/purpleservice",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "supportnotify",
+    "license",
+    "purple-service"
+  ],
+  "author": "Purple Service Gigantoxx",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "homepage": "https://dsc.gg/purpleservice"
+}
