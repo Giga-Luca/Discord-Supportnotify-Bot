@@ -4,6 +4,11 @@
   "guildId": "YOUR_GUILD_ID",
   "cooldown": 180000,
 
+  "features": {
+    "supportNotify": true,
+    "supportSort": true
+  },
+
   "activity": {
     "name": "Support Watch",
     "type": "Watching",
@@ -16,6 +21,12 @@
     "color": "#00b0f4",
     "footerText": "Support Notification System",
     "descriptionFormat": "🧑 **User:** <@{userId}>\\n📞 **Channel:** <#{channelId}>\\n⏰ **Waiting Since:** <t:{timestamp}:R>"
+  },
+
+  "supportSort": {
+    "prefix": "[",
+    "suffix": "] ",
+    "vipRoleIds": ["111111111111111111", "222222222222222222"]
   },
 
   "supportChannels": [
